@@ -1,0 +1,11 @@
+{
+    "rules": {
+        "max-len": "off",
+        "padded-blocks": "off",
+        "unicorn/filename-case": "off",
+        "@typescript-eslint/indent": [
+            "error",
+            2
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
+/metadata-cache/** linguist-generated=true
+.snapshot-api.json linguist-generated=true
+metadata.json linguist-generated=true

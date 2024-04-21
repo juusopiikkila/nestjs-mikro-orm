@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: 'mysql:8.3-oracle@sha256:d7c20c5ba268c558f4fac62977f8c7125bde0630ff8946b08dde44135ef40df3'
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - '3310:3306'
+    environment:
+      MYSQL_DATABASE: 'nestjs'
+      MYSQL_ROOT_PASSWORD: 'secret'

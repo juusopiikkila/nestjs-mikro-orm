@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "@meiko/typescript",
+        "@meiko/typescript/node"
+    ],
+    "plugins": [
+        "deprecation"
+    ],
+    "root": true,
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": "latest",
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "unicorn/no-null": "off",
+        "unicorn/prefer-string-replace-all": "off",
+        "deprecation/deprecation": "warn"
+    }
+}
